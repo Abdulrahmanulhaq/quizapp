@@ -6,6 +6,7 @@ import {QuestionState, Difficulty} from './API'
 //styles
 import { GlobalStyle,Wrapper } from './App.styles'
 
+
 export type answerObject = {
   question: string; 
   answer: string; 
@@ -85,7 +86,7 @@ const App = () => {
     ) : null}
 
     {!gameOver ? <p className="score">     Score:   {score} </p> : null } 
-    {loading && <p className=""> Loading Quistions ... </p>  } 
+    {loading && <p className=""> <p color="black">Loading...</p> </p>  } 
     {!loading && !gameOver && (
          <QuestionCard 
             questionNr={number + 1}

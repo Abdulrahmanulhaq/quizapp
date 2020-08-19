@@ -28,7 +28,7 @@ export const Wrapper= styled.div`
     align-items:center;
 
     >p{
-        color:#fff;
+        color:black;
     }
 
     .score{
@@ -38,7 +38,7 @@ export const Wrapper= styled.div`
     }
     
     h1{
-        font-family: 'Cairo', sans-serif;
+        font-family: 'Do Hyeon', sans-serif;
         background-image:linear-gradient(180deg,#A3A2A2  ,#111111     );
         background-size:100%;
         background-clip:text;
@@ -65,5 +65,6 @@ export const Wrapper= styled.div`
     }
     .start{
         max-width:200px;
+        font-size: 1rem;
     }
 `;
